@@ -1,0 +1,59 @@
+# ECGR 4105 - Machine Learning Course
+
+This repository contains homework assignments for ECGR 4105.
+
+## Setup Instructions
+
+### 1. Create the Shared Conda Environment
+
+From this main directory, create the shared conda environment that will be used for all homework assignments:
+
+```bash
+conda env create -f environment.yml
+```
+
+This will create an environment named `ecgr4105` with all the necessary packages for the course.
+
+### 2. Activate the Environment
+
+```bash
+conda activate ecgr4105
+```
+
+### 3. Working with Jupyter Notebooks
+
+Once the environment is activated, you can start Jupyter from any homework folder:
+
+```bash
+cd homework1  # or homework2, etc.
+jupyter notebook
+```
+
+The notebook will automatically use the `ecgr4105` environment.
+
+### 4. Adding New Packages
+
+If you need additional packages for future assignments, you can either:
+
+- Install directly: `conda install package-name`
+- Or update the `environment.yml` file and recreate the environment:
+  ```bash
+  conda env update -f environment.yml
+  ```
+
+## Folder Structure
+
+- `homework1/` - First assignment
+- `homework2/` - Second assignment
+
+## Environment Contents
+
+The shared environment includes:
+- Python 3.11
+- Jupyter Notebook/Lab
+- Pandas 
+- NumPy 
+- Matplotlib & Seaborn 
+- Scikit-learn 
+- SciPy 
+- Plotly 
