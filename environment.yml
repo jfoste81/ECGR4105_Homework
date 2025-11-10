@@ -1,17 +1,18 @@
 name: ecgr4105
 channels:
-  - conda-forge
   - defaults
 dependencies:
-  - python=3.11
+  - ipykernel
   - jupyter
-  - pandas
-  - numpy
+  - jupyterlab
   - matplotlib
-  - seaborn
+  - notebook
+  - numpy
+  - pandas
+  - plotly
+  - python=3.11
   - scikit-learn
   - scipy
-  - plotly
-  - ipykernel
-  - notebook
-  - jupyterlab
+  - seaborn
+  - pandoc
+  - pytorch
