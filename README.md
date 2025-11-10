@@ -41,20 +41,3 @@ If you need additional packages for future assignments, you can either:
   ```bash
   conda env update -f environment.yml
   ```
-
-## Folder Structure
-
-- `homework1/` - First assignment
-- `homework2/` - Second assignment
-
-## Environment Contents
-
-The shared environment includes:
-- Python 3.11
-- Jupyter Notebook/Lab
-- Pandas 
-- NumPy 
-- Matplotlib & Seaborn 
-- Scikit-learn 
-- SciPy 
-- Plotly 
